@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.chrisvalleskey.com/fillerama/get.php?count=1&format=json&show=simpsons
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*; q=0.5, application/xml'
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAwNyBTZXAgMjAxMiAyMToxMzo0MyBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hlLzIuMi4xNCAoVWJ1bnR1KQ==
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        UEhQLzUuMy4yLTF1YnVudHU0LjE3
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MzY3
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1s
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA21Sy24CMQz8FSuXXhAfwKUC+hQsQoB6qXowGy+JGuKtk9BW
+        Ff/e7Faquim32B7b45l8Kb1Xk+cvFThJTWqiNuhao0bqLXHs4oqgQevg1h+c
+        DeYadgbjVYDkWw7B7h2N1fllpAyhJgn9sJ93bn5IIrZGT7AirT/VefSnWMkY
+        1o7fh9lZEh/gieQVU0MechYWgk18z6khdGkbAvYQDcEdhgjLvGkI2eXSY6zN
+        J6DXsK0Ff4M1c20swdaUFB74SDKBGWqo0F+o9RvvhTD+37bsiOzo2EaMNpPj
+        BvqeIXIKd1lMmKNzlHmRO+IQ0KeyzHPDti6OqlAOBKcwhoo9S3ZnWN9woH3S
+        hVgdr9sPGyEybFux/tBYcgXqJjWNoxBKttsoRLFGgRUeqdMlUyiMQ4m9MDco
+        pOlUslphTIIOZiweFjaE7rdc0HbquHRxjm12mPLc4lDUlrGO9kQ/Tr2cvwGh
+        XUIn0QIAAA==
+    http_version: 
+  recorded_at: Fri, 07 Sep 2012 21:13:43 GMT
+recorded_with: VCR 2.2.4

@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# vim:ft=ruby
+
+$LOAD_PATH.unshift(File.expand_path(File.dirname(__FILE__) + '/../lib'))
+
+require 'fillerama'
+
+opts   = Fillerama::CLI.parse!(ARGV)
+client = Fillerama::Client.new(opts)
+puts client.quotes
+

@@ -1,0 +1,89 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.chrisvalleskey.com/fillerama/get.php?count=10&format=json&show=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*; q=0.5, application/xml'
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAwNyBTZXAgMjAxMiAyMzowMTo1OSBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hlLzIuMi4xNCAoVWJ1bnR1KQ==
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        UEhQLzUuMy4yLTF1YnVudHU0LjE3
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        MTcwMA==
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1s
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+    http_version: 
+  recorded_at: Fri, 07 Sep 2012 23:01:59 GMT
+recorded_with: VCR 2.2.4

@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.chrisvalleskey.com/fillerama/get.php?count=1&format=json&show=dexter
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*; q=0.5, application/xml'
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAwNyBTZXAgMjAxMiAyMToxNTowMSBHTVQ=
+      !binary "U2VydmVy":
+      - !binary |-
+        QXBhY2hlLzIuMi4xNCAoVWJ1bnR1KQ==
+      !binary "WC1Qb3dlcmVkLUJ5":
+      - !binary |-
+        UEhQLzUuMy4yLTF1YnVudHU0LjE3
+      !binary "QWNjZXNzLUNvbnRyb2wtQWxsb3ctT3JpZ2lu":
+      - !binary |-
+        Kg==
+      !binary "VmFyeQ==":
+      - !binary |-
+        QWNjZXB0LUVuY29kaW5n
+      !binary "Q29udGVudC1FbmNvZGluZw==":
+      - !binary |-
+        Z3ppcA==
+      !binary "Q29udGVudC1MZW5ndGg=":
+      - !binary |-
+        NzQz
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        dGV4dC9odG1s
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA21V227bMAz9FdYvfcn2AX0ZcmkuaLoWTbZgGPrA2IwtRBYz
+        SU5qFP33UW4GzEweAgSiRB4eHh6/Z8U2u/v9ngVufE7ZXTaht0g+G2R/Go7p
+        YHFbQ0mOPFrbQs5u1wQqoOYQgXcQK4JoavqafbwOsoqwIB+6lJ//JcOSdhHW
+        jXcwTGfZx+C/4IThFzewxj3BI/sS3bf+hXsMLWCAZ0P9wALmWADCxBPW/dBa
+        QE2wxpIk/ogOxvKbcP/SvHGlb1NY5Y23AYbWHOmmH1imlkfchotinuTJimuK
+        lXElDLfcREHnfasyUMo9k9Qdb5JL8M3RFZfwZxTxhOr91LgiFZh6oq1qZ2x8
+        bgl+KHRjzzkXxiryXiiYENHlBIsA0yZe3Bg6WDgZ95GcIRdhqfmf80HQCxRT
+        Vkky/dcdBUsUxr6neD+6MhAIDg0VKufaN7GCEcGarSLlmQ+H1PtY6Na8inBc
+        F5MRqP5nnb48PJ0cbDSfLywKejDW9o9HhE2U0bjic0wkbSjV0tsgMRIG3a2f
+        piCOeNDdyOOlYQcrS3QI0pS75OL+SL791I1MYmFtU5PDSKr9xxZGendS/pE3
+        0YRKZnXEILX0mGs0LkDkROqKSMXnZC0Pzot3VU+y4lMvAigUr0/C6RSFHjX4
+        tOepl5GpjaNwwQieBTFI2mFPIpCZp5OGHZNdCOqVVNYlzhbV34wOCjw4PgVp
+        9cq8OosJad/YmkIrQahJqF807R3FpoQnpztJhrWIN3pBffIIy6xtznhR1BVL
+        kMJf1pXnpqyU3j3m0eSd6z6T31GuehpaC8Z1Cp1ibaxKvJZhJwPciHjJXnjM
+        SFam8xF1bMVixN63bZd4eanXJYt7DWvygk2UHVttHKvKG7eHjceDMtYd/PPs
+        Oda1HmGnRRG5WJwuaY5pOAnQFbPfoGxACjPcv1Wo4SzceYlL45Iyr30p/B4m
+        tLsitZXFfA9rk3zq9eMvflHHhC4HAAA=
+    http_version: 
+  recorded_at: Fri, 07 Sep 2012 21:15:00 GMT
+recorded_with: VCR 2.2.4
