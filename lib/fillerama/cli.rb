@@ -17,6 +17,7 @@ module Fillerama
         opts.on('-l', '--loremipsum', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.') {options[:source] = 'loremipsum'}
         opts.on('-s', '--simpsons', 'The Simpsons') {options[:source] = 'simpsons'}
         opts.on('-S', '--starwars', 'Star Wars') {options[:source] = 'starwars'}
+        opts.on('-v', '--version', 'Print version and exit') { puts "fillerama #{Fillerama::VERSION}"; exit}
       end
 
       opts.parse!(args)
