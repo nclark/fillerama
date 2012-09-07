@@ -11,7 +11,8 @@ module Fillerama
       data   = JSON.parse(RestClient.get 'http://api.chrisvalleskey.com/fillerama/get.php', params)
       quotes = data['db'].map {|e| e['quote']}
 
-      CGI.unescapeHTML(quotes.join(' '))
+      coder = HTMLEntities.new
+      CGI.unescapeHTML(coder.decode(quotes.join(' ')))
     end
 
     private
