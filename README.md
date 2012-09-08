@@ -21,7 +21,7 @@ Or install it yourself as:
     Fillerama: A Filler Text Generator
     
     Usage: fillerama [options]
-        -c, --count COUNT                Number of quotes to retrieve (default is 5)
+        -c, --count COUNT                Number of quotes to retrieve (default is 1)
         -d, --dexter                     Dexter
         -D, --doctorwho                  Doctor Who
         -f, --futurama                   Futurama (default)
